@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>OTP</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: white;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        nav a {
+            color: #99A0FF;
+            font-weight: bold;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .join-button {
+            background-color: #99A0FF;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        nav a:hover {
+            color: #337ab7;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            border: 2px solid #99A0FF;
+            border-radius: 8px;
+            padding: 32px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #99A0FF;
+            margin-bottom: 24px;
+        }
+
+        input {
+            width: 90%;
+            padding: 12px;
+            border: 2px solid #99A0FF;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #337ab7;
+        }
+
+        button[type="submit"] {
+            background-color: #99A0FF;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #337ab7;
+        }
+
+        footer {
+            background-color: #99A0FF;
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+            <img alt="Logo" src="https://storage.googleapis.com/a1aa/image/isbALpNzs1o0EBJesnQJDPWxfNk6A3HCHrYX5HeGiYj3HxRnA.jpg" />
+        </div>
+        <nav>
+            <a href="#">Trang chủ</a>
+            <a href="#">Kiểm tra</a>
+            <a href="#">Diễn đàn</a>
+            <a href="#">Tự học</a>
+            <a class="join-button" href="#">Tham gia ngay</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="form-container">
+        <h1>Xác nhận mã OTP</h1>
+        <form>
+            <label for="otp"></label>
+            <input id="otp" placeholder="Nhập OTP" type="otp"/>
+            <div class="text-center">
+                <button type="submit">Xác nhận</button>
+            </div>
+        </form>
+    </div>
+</main>
+<footer>
+</footer>
+</body>
+</html>
